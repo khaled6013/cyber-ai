@@ -6,7 +6,6 @@ export default function Home() {
     <>
       <Nav></Nav>
       <Banner></Banner>
-      <h1>hello next js</h1>
     </>
   );
 }
