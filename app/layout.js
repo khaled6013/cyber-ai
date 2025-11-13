@@ -1,16 +1,10 @@
-import { Montserrat, Orbitron } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Nav from "./home/Nav";
-
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
-});
-
-const orbitron = Orbitron({
-  subsets: ["latin"],
-  variable: "--font-orbitron",
 });
 
 export const metadata = {
@@ -22,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${orbitron.variable} ${montserrat.variable} antialiased`}
+        className={` ${montserrat.variable} antialiased`}
       >
         <Nav></Nav>
         {children}
