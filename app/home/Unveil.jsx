@@ -73,13 +73,11 @@ const Unveil = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="absolute top-0 left-35 h-full w-0.5 bg-linear-to-b from-[#E03609] to-[#F0B71F]"></div>
-                    <div className="absolute top-0 right-35 h-full w-0.5 bg-linear-to-b from-[#F0B71F] to-[#E03609]"></div>
-                    <div className="absolute h-0.5 w-full left-0 top-0 bg-linear-to-b from-[#F0B71F] to-[#E03609]"></div>
-                    <div className="absolute -top-8 right-[110px]">
+                    <div className="absolute h-0.5 w-full left-0 top-0 bg-linear-to-b from-[#E03609] to-[#F0B71F]"></div>
+                    <div className="absolute -top-[30px] right-[122px]">
                         <img src="/image/u.png" alt="u" />
                     </div>
-                    <div className="absolute -top-8 left-[110px]">
+                    <div className="absolute -top-[30px] left-[122px]">
                         <img src="/image/ut.png" alt="u" />
                     </div>
                 </div>

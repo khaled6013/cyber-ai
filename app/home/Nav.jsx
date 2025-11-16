@@ -30,8 +30,6 @@ const Nav = () => {
                         <a onClick={() => setOpen(!open)} className='text-[17px] font-bold text-white py-3 px-5 bg-linear-to-r from-[#F0B71F] to-[#E03609] cursor-pointer rounded-lg'>Get started free</a>
                     </div>
                 </div>
-                <div className="absolute top-0 left-35 h-full w-0.5 bg-linear-to-b from-[#E03609] to-[#F0B71F]"></div>
-                <div className="absolute top-0 right-35 h-full w-0.5 bg-linear-to-b from-[#F0B71F] to-[#E03609]"></div>
             </div>
             <div className="w-full h-0.5 bg-linear-to-r from-[#E03609] to-[#F0B71F] mt-15 ">
             </div>

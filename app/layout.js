@@ -1,6 +1,5 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Nav from "./home/Nav";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -18,7 +17,6 @@ export default function RootLayout({ children }) {
       <body
         className={` ${montserrat.variable} antialiased`}
       >
-        <Nav></Nav>
         {children}
       </body>
     </html>
